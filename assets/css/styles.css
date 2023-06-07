@@ -1,0 +1,158 @@
+body  {
+  background-image: url("../images/background.jpg");
+  background-color: #cccccc;
+  color: white;
+  overflow: scroll;
+
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+/****************************** Top navigation */
+.topnav {
+  overflow: hidden;
+  width: 50%;
+  float: right;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #ef4e3c;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ef4e3c;
+  color: white;
+}
+
+/****************************** About Me */
+.aboutme {
+  overflow: hidden;
+  width: 25%;
+  height: 80%
+  margin: 0 auto;
+
+  position: absolute;
+  top: 30%;
+  left: 20%;	
+}
+
+/****************************** My Picture */
+.mypicture {
+  background-image: url('../images/belinda.png');
+  background-size: 100%;
+  width: 500px;
+  height: 500px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 15px 15px #020611 inset;
+  border-radius: 15px 50px 30px 5px;
+
+  position: absolute;
+  top: 25%;
+  left: 50%;	
+
+}
+
+/****************************** My Picture */
+.mypicicon {
+  background-image: url('../images/belinda.png');
+  background-size: 200px;
+  width: 200px;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 15px 15px #020611 inset;
+  border-radius: 15px 50px 30px 5px;
+
+  position: absolute;
+  top: 10%;
+  left: 420px;	
+
+}
+
+/****************************** Title */
+.summary {
+  overflow: hidden;
+  width: 30%;
+  height: 30%
+  margin: 0 auto;
+
+  position: absolute;
+  top: 15%;
+  left: 40%;	
+
+}
+
+/****************************** Contact */
+.contact {
+  background-color: #8D9FCD;
+  color: black;
+  line-height: 24px;
+  padding: 30px;
+  width: 227px;
+
+  position: absolute;
+  top: 330px;
+  left: 400px;	
+}
+
+.tinyicon {
+  background-size: 20px;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+
+}
+
+/****************************** Summary*/
+.summary {
+  background-color: lightgray;
+  color: black;
+  line-height: 26px;
+  padding: 38px;
+  width: 839px;
+
+  position: absolute;
+  top: 330px;
+  left: 689px;	
+}
+
+/****************************** Skills*/
+ .skills {
+ background-color: lightgray;
+  color: black;
+  line-height: 25px;
+  padding: 33px;
+  width: 221px;
+  height: 1131px;
+
+  position: absolute;
+  top: 550px;
+  left: 400px;	
+}
+
+/****************************** experience*/
+ .experience {
+  background-color: white;
+  color: black;
+  line-height: 25px;
+  padding: 33px;
+  width: 850px;
+
+  position: absolute;
+  top: 550px;
+  left: 689px;	
+}
